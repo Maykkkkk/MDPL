@@ -8,13 +8,14 @@
 
 ## Installation
 ```
-cd DeAP
-conda create -n DeAP python=3.9.19
-source activate DeAP
+cd MDPL
+conda create -n MDPL python=3.9.19
+source activate MDPL
 conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 cudatoolkit=11.7 -c pytorch -c conda-forge
 pip install opencv-python tqdm glog scikit-image albumentations
 pip install -U albumentations[imgaug]
 pip install albumentations==1.1.0
+pip install easydict
 ```
 ## Network Architecture
 <img src="./Figure/MDPL.png"/>
